@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+		/* Reset CSS
+		 * --------------------------------------- */
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+		form,fieldset,input,textarea,p,blockquote,th,td {
+		    padding: 0;
+		    margin: 0;
+		}
+		a{
+			text-decoration:none;
+		}
+		table {
+		    border-spacing: 0;
+		}
+		fieldset,img {
+		    border: 0;
+		}
+		address,caption,cite,code,dfn,em,strong,th,var {
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		strong{
+			font-weight: bold;
+		}
+		ol,ul {
+		    list-style: none;
+		    margin:0;
+		    padding:0;
+		}
+		caption,th {
+		    text-align: left;
+
+		}
+		h1,h2,h3,h4,h5,h6 {
+		    font-weight: normal;
+		    font-size: 100%;
+		    margin:0;
+		    padding:0;
+		    color:#222222;
+		}
+		q:before,q:after {
+		    content:'';
+		}
+		abbr,acronym { border: 0;
+		}
+
+
+		/* Custom CSS
+		 * --------------------------------------- */
+		body{
+			font-family: arial,helvetica;
+			color: #222222;
+		}
+		h1{
+			font-size: 2em;
+			font-family: 'Playfair Display', serif;
+           font-weight: 700;
+		}
+
+		h3{
+			font-size: 1em;
+			font-family: 'Playfair Display', serif;
+           font-weight: 700;
+				padding-top: 20px;
+
+		}
+
+h2 {
+	font-size: 1em;
+font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-style: italic;
+	padding-top: 10px;
+}
+		p{
+			font-size: 1em;
+			padding-top: 10px;
+		}
+		.content{
+			position: relative;
+			top: 50%;
+			left: 10%;
+			transform: translateY(-50%);
+			text-align: left;
+			width: 80%;
+		}
+
+		/* Section 1
+		 * --------------------------------------- */
+		#section0{
+			background-color: #ffffff;
+		}
+		#section0 h1{
+			color: #222222;
+		}
+		#section0 p{
+			color: #333;
+			opacity: 1;
+		}
+
+
+		/* Section 2
+		 * --------------------------------------- */
+		#section1{
+			background-color: #eeeeee;
+		}
+		#section1 h1{
+			color: #222222;
+		}
+		#section1 p{
+			opacity: 0.8;
+		}
+
+
+		/* Section 3
+		 * --------------------------------------- */
+		#section2{
+			background-color: #ffffff;
+		}
+		#section2 h1{
+			color: #222222;
+		}
+		#section2 p{
+			opacity: 0.6;
+		}
+
+
+/* Section 3
+		 * --------------------------------------- */
+		#section3 {
+			background-color: #eeeeee;
+		}
+
+	#section4 {
+			background-color: #eeeeee;
+		}
